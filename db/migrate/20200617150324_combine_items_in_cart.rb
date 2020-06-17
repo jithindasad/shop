@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class CombineItemsInCart < ActiveRecord::Migration[6.0]
   def up
     # replace multiple items for a single product in a cart with a
